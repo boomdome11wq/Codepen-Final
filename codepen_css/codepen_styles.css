@@ -1,0 +1,226 @@
+/*other*/
+body {
+    margin: 0px;
+    background-color: #08090a;
+}
+/*nav-bar*/
+.nav-bar {
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    /*padding: 0px 10px 10px 0px;*/
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.nav-bar {
+    display: flex;
+    margin-right: 10px;
+}
+/*Left column*/
+
+.banner-image img {
+    height: 40px;
+    padding: 30px 2px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*center column*/
+
+.center-column > .links-wrapper {
+    color: white;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.center-column > .links-wrapper > .nav-link {
+    display: flex;
+    align-items: center;
+
+}
+.center-column > .links-wrapper > .nav-link a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    width: 140px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.center-column > .EXPLORE {
+    color: #f4e187;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 25px 0px -18px 45px;
+}
+.center-column {
+   /* justify-content: space-between;
+    align-items: center; */
+    width: 100%;
+}
+.drop-down {
+    background-color: black;
+    color: #868b8b;
+    outline: 0px;
+    border: 0px;
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-down i{
+    color: #868b8b;
+    font-size: 15px;
+    padding: 0px 10px 0px 5px;
+}
+.btn_t i{
+    color: rgb(0, 168, 0);
+    font-size: 15px;
+    padding: 0px -100px 0px 10px;
+}
+
+/*right column*/
+
+.btn_holder > .btn_t {
+    color:white;
+    background-color: #41454f;
+    font-size: 20px;
+    box-shadow: 0px;
+    outline: 0px;
+    padding: 15px 25px;
+    border-radius: 5px ;
+    border: 1px solid #41454f;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.right-coulmn {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+}
+.right-coulmn > .mag {
+    font-size: 25px;
+    padding: 0px 10px;
+}
+/*info*/
+
+.Info {
+    background-image: url(../Coding\ Test\ Pics/background-2.jpg);
+    width: 1875px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.Info > .paragraph h2 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    
+}
+
+.Info > .paragraph h3 {
+    color: #b3b3b3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.Info > .paragraph {
+    width: 50%;
+}
+.large-img img {
+    height: 581px;
+    width: 820px;
+    display: flex;
+}
+.large-img {
+    display: grid;
+    padding: 0px 0px 0px 110px;
+}
+.large-img p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.large-img b {
+    color: cyan;
+    font-size: 20px;
+}
+.Sign-up-btn > .sign-Up-2 {
+    color:black;
+    background-color: #4bce79;
+    font-size: 40px;
+    box-shadow: 0px;
+    outline: 0px;
+    padding: 5px 5px;
+    border-radius: 5px ;
+    width:350px;
+    height: 75px;
+    margin-right: 10px;
+}
+.Sign-up-btn > .Learn-more {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    box-shadow: 0px;
+    outline: 0px;
+    padding: 5px 5px;
+    border-radius: 5px ;
+    width:350px;
+    height: 75px;
+    border: 1px solid black;
+    margin: 0px;
+}
+/*bottom-banner*/
+.bottom-banner {
+    color: white;
+    background-color: #41454f;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-banner > .words-in {
+    background-color: #36383f;
+    height: 75px;
+    width: 24.85%;
+    display: flex;
+    justify-content:space-around;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    align-items: center;
+}
+.bottom-banner > .words-in b{
+    font-size: 35px;
+}
